@@ -93,10 +93,9 @@
     </div>
     {% endif %}
 
-    <h2>Available Messages</h2>
+    <h2 class="mgTop translateHeading">Dostępne tłumaczenia</h2>
     
     {% if newMessages is not empty %}
-    <h3>New Messages</h3>
     {% include "JMSTranslationBundle:Translate:messages.html.twig" with {"messages": newMessages} %}
     {% endif %}
     
