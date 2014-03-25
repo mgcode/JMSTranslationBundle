@@ -1,3 +1,7 @@
 phpunit.xml
 vendor/
+.idea/
+idea/*
+.git/
+.git/*
 
